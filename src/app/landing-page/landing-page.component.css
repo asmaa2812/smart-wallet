@@ -1,0 +1,114 @@
+.bord-color , .log-out button
+{
+   background-color: var(--bg-color);
+   color: white;
+}
+.main-color
+{
+    color: var(--bg-color);
+    transition: all 0.4s ease-in;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+.main-color:hover
+{
+    background-color: var(--bg-color) !important;
+    color: white;
+   
+}
+.land-icon
+{
+    color: var(--bg-color);
+}
+.dash-bord , .btn-rate , .data , .balance-card , .card-balance
+{
+    box-shadow: 4px 4px 8px rgb(212, 209, 209) , -2px -2px 8px rgb(212, 209, 209);
+}
+.log-out
+{
+    width: 35% !important;
+    margin: 0px auto !important;
+}
+
+/* -----column 2--------- */
+.input-search i
+{
+    bottom: 25% !important;
+    left: 15% !important;
+    color: rgb(168, 166, 166);
+}
+.input-search input
+{
+    box-shadow: 3px 3px 3px rgb(245, 235, 235) inset , -3px -3px 3px rgb(238, 234, 234) inset !important;
+}
+.rate-money h4
+{
+    color: var(--bg-color);
+}
+.anch-link a
+{
+    color: rgb(236, 117, 74) !important;
+    letter-spacing: 1px;
+}
+.btn-rate .btn-part1
+{
+    background-color: var(--bg-color) !important;
+    color: white;
+}
+.btn-rate .btn-part2
+{
+    border:1.9px solid var(--bg-color) !important;
+    color: rgb(236, 117, 74);
+    font-size: 18px !important;
+    transition: all 0.4s ease-out;
+}
+.btn-rate h5
+{
+    color: var(--bg-color);
+}
+.section-div
+{
+    background-color: rgb(238, 101, 51) !important;
+    color:white;
+}
+.section-div p span
+{
+    text-decoration: underline;
+}
+.show-btn button
+{
+    border: 1.8px solid var(--bg-color) !important;
+    color: var(--bg-color);
+    font-size: 18px !important;
+    transition: all 0.4s ease-out;
+}
+.show-btn button:hover , .btn-rate .btn-part2:hover
+{
+    background-color: var(--bg-color);
+    color: white !important;
+}
+/* ------section 3 -------- */
+.your-balance , .box
+{
+    border: 1.9px solid var(--bg-color);
+}
+.balance
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    color: rgb(238, 101, 51);
+    border: 2px solid rgb(235, 129, 90) !important;
+}
+.your-balance span , .box h6,.box span 
+{
+    color: rgb(238, 101, 51);
+}
+.visa
+{
+    background-color: rgb(189, 93, 58);
+}
+.card-balance h5
+{
+    color: var(--bg-color);
+}

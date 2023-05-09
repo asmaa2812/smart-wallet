@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Dancing+Script&family=Domine&family=Hanken+Grotesk&family=Inter:wght@300&family=Lato&family=Montserrat:wght@500;600&family=Open+Sans&family=Oswald&family=Outfit&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@0,600;1,300&family=Roboto+Slab&family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@600&family=Xanh+Mono:ital@1&display=swap');
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root
+{
+    --bg-color:orangered;
+}
