@@ -1,3 +1,7 @@
+.landing-page
+{
+    background-color: brown;
+}
 .bord-color , .log-out button
 {
    background-color: var(--bg-color);
@@ -18,11 +22,12 @@
 }
 .land-icon
 {
-    color: var(--bg-color);
+    color: #ffff;
 }
-.dash-bord , .btn-rate , .data , .balance-card , .card-balance
+ .dash-bord ,  .data , .balance-card /*, .card-balance */
 {
-    box-shadow: 4px 4px 8px rgb(212, 209, 209) , -2px -2px 8px rgb(212, 209, 209);
+    box-shadow: 4px 4px 8px rgb(250, 82, 82) , -2px -2px 8px rgb(250, 82, 82);
+    background-color: rgb(71, 3, 3) !important;
 }
 .log-out
 {
@@ -39,15 +44,24 @@
 }
 .input-search input
 {
-    box-shadow: 3px 3px 3px rgb(245, 235, 235) inset , -3px -3px 3px rgb(238, 234, 234) inset !important;
+    box-shadow: 3px 3px 3px rgb(223, 218, 218) inset , -3px -3px 3px rgb(238, 234, 234) inset !important;
 }
 .rate-money h4
 {
     color: var(--bg-color);
 }
+.btn-rate
+{
+    box-shadow: 1px 1px 1px rgb(235, 233, 233) ,-1px -1px 1px rgb(235, 233, 233) ;
+}
+.sections i, .sections span
+{
+    color: rgb(206, 3, 3) !important;
+}
 .anch-link a
 {
-    color: rgb(236, 117, 74) !important;
+    /* color: rgb(236, 117, 74) !important; */
+    color: white;
     letter-spacing: 1px;
 }
 .btn-rate .btn-part1
@@ -58,7 +72,8 @@
 .btn-rate .btn-part2
 {
     border:1.9px solid var(--bg-color) !important;
-    color: rgb(236, 117, 74);
+    /* color: rgb(236, 117, 74); */
+    color: #ffff;
     font-size: 18px !important;
     transition: all 0.4s ease-out;
 }
@@ -90,7 +105,7 @@
 /* ------section 3 -------- */
 .your-balance , .box
 {
-    border: 1.9px solid var(--bg-color);
+    border: 1.9px solid brown;
 }
 .balance
 {
@@ -102,7 +117,8 @@
 }
 .your-balance span , .box h6,.box span 
 {
-    color: rgb(238, 101, 51);
+    /* color: rgb(238, 101, 51); */
+    color:#ffff;
 }
 .visa
 {
